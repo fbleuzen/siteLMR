@@ -1,0 +1,28 @@
+#partners_right_carousel {
+	width: 200px;
+    height: 200px;
+}
+
+#partners_right_carousel .right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+#partners_right_carousel .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#partners_right_carousel .right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+#partners_right_carousel .item {
+    width: 200px;
+    height: 200px;
+}
+
+#partners_right_carousel .item_image {
+	display: inline-block;
+	vertical-align:middle;
+}

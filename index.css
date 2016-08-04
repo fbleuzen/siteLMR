@@ -1,0 +1,719 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-image: url(/images/fond.jpg);
+}
+
+#partners_right {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 5px;
+    background-color: #000000;
+	background-image: url(/partenaires/logos/fond_partenaires.gif);
+	background-repeat: repeat;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#partners_bottom {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	z-index : 15000;
+	background-color: #000000;
+	background-image: url(/partenaires/logos/fond_partenaires.gif);
+	background-repeat: repeat;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+#banniere {
+	background-image: url(/images/fond.jpg);
+	padding-bottom: 10px;
+}
+
+#navbar .divider {
+    background-color: black;
+}
+
+#navbar .dropdown-header {
+    background: black;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#tournaments_dropdown .dropdown-menu>li>a {
+    padding-left: 30px;
+}
+
+#content {
+	padding-left: 15px;
+}
+
+/* For medium (md) and large (lg) screens */
+@media(min-width: 992px) {
+    #content {
+
+    	padding-right: 210px;
+    	padding-bottom: 20px;
+    }
+}
+
+/* For small (sm) and extra-small (xs) screens */
+@media(max-width: 991px) {
+    #content {
+    	padding-right: 15px;
+    	padding-bottom: 70px;
+    }
+}
+
+/* Classes lié au menu déroulant à plusieurs niveaux */
+
+.dropdown-menu>li>a
+{
+	color: black;
+    position: relative;
+    background-color: #ffff80;
+    background-image: none;
+}
+
+/* Bug de Blanc sans celui ci */
+.dropdown-submenu,.dropdown-menu
+{
+    color: #fff;
+    background-color: #ffff80;
+}
+
+/* Mise en forme des sous menu */
+.dropdown-submenu>.dropdown-menu
+{
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+    background-color: #ffff80;
+}
+
+/* Permets d'afficher les niveau inférieurs */
+.dropdown-submenu:hover>.dropdown-menu
+{
+    display: block;
+    background-color: #ffff80;
+}
+
+.dropdown-submenu:hover > a
+{
+    color: white;
+    position: relative;
+    background-color: black;
+    background-image: none;
+}
+
+.dropdown-menu > li > a:hover
+{
+    background-color: black;
+    color: #fff;
+    background-image: none;
+}
+
+.dropdown-menu > li > a:after
+{
+    background-color: white;
+    color: #fff;
+    background-image: none;
+}
+
+.dropdown-submenu>a:after
+{
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    color: #fff;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000;
+    margin-top: 5px;
+    margin-right: -10px;
+    background-color: #ffff80;
+}
+
+
+
+
+
+/* Affichage de Card -- News */
+
+.card
+{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding-bottom: -10px;
+    margin-bottom: +10px;
+    background-color: #ffff80;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-clip: padding-box;
+    margin-bottom: 0px;
+}
+
+.card span.card-title
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+ /* Utilisation pour mettre dans images dans "card news" */
+.card .card-image
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.card .card-image img
+{
+    border-radius: 2px 2px 0 0;
+    background-clip: padding-box;
+    position: relative;
+    z-index: 0;
+}
+
+.card .card-image span.card-title
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+
+
+
+.card .card-content
+{
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+
+.card .card-content p
+{
+    margin: 0;
+    color: inherit;
+}
+
+.card .card-content span.card-title
+{
+    line-height: 48px;
+}
+
+.card .card-action
+{
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 16px;
+}
+
+.card .card-action a
+{
+    color: # E1B700;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:hover
+{
+    color: #ffd8a6;
+    text-decoration: none;
+}
+
+
+#myCarousel .carousel-caption
+{
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    text-shadow: none;
+    right: +20px;
+    border-radius: +10px;
+}
+
+#myCarousel .list-group
+{
+    position: absolute;
+    top: 0;
+    border-radius: +10px;
+    right: 0;
+}
+
+#myCarousel .list-group-item
+{
+    border-radius: +10px;
+    cursor: pointer;
+    background-color: #000000;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#myCarousel .list-group .active
+{
+    background-color: #eee;
+}
+
+@media (min-width: 992px)
+{
+    #myCarousel
+    {
+        padding-right: 33.3333%;
+        border-radius: 10px;
+    }
+    #myCarousel .carousel-controls
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .carousel-caption p,
+	#myCarousel .list-group
+    {
+        display: none;
+    }
+}
+
+/* Permets d'afficher les évènements comme bénévolat ou tournois */
+.event-list
+{
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.event-list > li {
+		background-color: #ffff80;
+		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+		padding: 0px;
+		margin: 0px 0px 20px;
+	}
+
+.event-list > li > time
+{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-list > li:nth-child(even) > time
+{
+    background-color: rgb(165, 82, 167);
+}
+
+.event-list > li > time > span
+{
+    display: none;
+}
+
+.event-list > li > time > .day
+{
+    display: block;
+    font-size: 27pt;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.event-list > li time > .month
+{
+    display: block;
+    font-size: 12pt;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.event-list > li > img
+{
+    width: 100%;
+}
+
+.event-list > li > .info
+{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.event-list > li > .info > .title
+{
+	color: #000000;
+    font-size: 12pt;
+    font-weight: 700;
+    margin: 0px;
+}
+.event-list > li > .info > .title > a
+{
+	color:black;
+}
+
+.event-list > li > .info > .desc
+{
+    font-size: 13pt;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.event-list > li > .info > ul,
+	.event-list > li > .social > ul
+{
+    display: table;
+    list-style: none;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.event-list > li > .social > ul
+{
+    margin: 0px;
+}
+
+.event-list > li > .info > ul > li,
+	.event-list > li > .social > ul > li
+{
+    display: table-cell;
+    cursor: pointer;
+    color: rgb(30, 30, 30);
+    font-size: 11pt;
+    font-weight: 300;
+    padding: 3px 0px;
+}
+
+.event-list > li > .info > ul > li > a
+{
+    display: block;
+    width: 100%;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+.event-list > li > .info > ul > li > a:hover
+{
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.event-list > li > .social > ul > li
+{
+    padding: 0px;
+}
+
+.event-list > li > .social > ul > li > a
+{
+    padding: 3px 0px;
+}
+
+.event-list > li > .info > ul > li:hover,
+	.event-list > li > .social > ul > li:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+@media (min-width: 768px)
+{
+    .event-list > li
+    {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+    }
+    .event-list > li > time,
+		.event-list > li > img
+    {
+        display: inline-block;
+    }
+    .event-list > li > time,
+		.event-list > li > img
+    {
+        width: 60px;
+        float: left;
+    }
+    .event-list > li > .info
+    {
+    	color:#000000;
+        background-color: #ffff80;
+        overflow: hidden;
+    }
+    .event-list > li > time,
+		.event-list > li > img
+    {
+        width: 60px;
+        height: 60px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .event-list > li > .info
+    {
+    	color:#000000;
+        position: relative;
+        height: 60px;
+        text-align: left;
+        padding-right: 40px;
+        background-color: #ffff80;
+    }
+    .event-list > li > .info > .title, 
+		.event-list > li > .info > .desc
+    {
+    	color : #000000;
+        padding: 0px 10px;
+    }
+    .event-list > li > .info > ul
+    {
+    	color : #000000;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .event-list > li > .social
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: block;
+        width: 40px;
+    }
+    .event-list > li > .social > ul
+    {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+    .event-list > li > .social > ul > li
+    {
+        display: block;
+        padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a
+    {
+        display: block;
+        width: 40px;
+        padding: 10px 0px 9px;
+    }
+}
+
+/* Affichage en Module boite */
+
+.box
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background: #000000;
+    transition: all 0.2s ease;
+    border: 2px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 0 20px 20px 20px;
+    min-height: auto;
+}
+
+.box span.box-title
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content
+{
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+
+.box .box-content p
+{
+    color: #212121;
+    text-transform: none;
+}
+
+.img-carousel
+{
+    border-radius: +10px;
+}
+
+.carousel
+{
+    border-radius: +10px;
+}
+
+.articlelmr
+{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: +10px;
+    padding-left: +10px;
+}
+
+.td-jaune
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: +10px;
+    background-color: #ffff80;
+}
+
+.td-noir
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: +10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)
+{
+	
+
+/* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr
+    {
+        display: block;
+    }
+/* Hide table headers (but not display: none;, for accessibility) */
+    thead tr
+    {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr
+    {
+    	border:none;
+    }
+    td
+    {
+        border: none;
+        position: relative;
+
+    }
+    td:before
+    {
+    	border: none;
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}
+.table-responsive
+{
+	border:none;
+}
+.blanc
+{
+    color: #ffffff;
+}
+
+.logo
+{
+    margin-top: 4%;
+}
+
+.box-content-test
+{
+	background-image: url('images/fond_titre_tournoisV4.gif');
+	color:white;
+	width: 100%;
+    background-size: 100% 100%;
+}
+
+.box-content-test h1
+{
+	font-size: 18px;
+	color: #d9d9d9;	
+text-shadow: #2e2e2e 0 4px 5px;
+}
+
+.box-content-test h2
+{
+	font-size: 14px;
+	color: #d9d9d9;
+text-shadow: #2e2e2e 0 4px 5px;
+
+}
+.box-content > .texte p
+{
+    color: white;
+}
+
+ 
+.texte {
+font-size: 1em;
+font-family: Georgia, Times, "Times New Roman", serif;
+line-height: 140%;
+ 
+}
+ 
+.texte p {
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}   
+
+.img-fondjaune{
+    background-color:#ffff80;
+}
+
+.boxpage
+{
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border: 2px groove #000000;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-clip: padding-box;
+    padding: 0 20px 20px 20px;
+    min-height: 100%;
+    width: 100%;
+    height: 800%;
+    max-height: 100%;
+}
+
+@media(max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+}
