@@ -1,362 +1,221 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Les Manchots de la rade - Badminton</title>
-    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Les Manchots de la rade - Badminton</title>
+		<!-- Bootstrap core CSS -->
+		<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="/index.css">
+		<link rel="stylesheet" type="text/css" href="/partenaires/partners_right.css">
+		<link rel="stylesheet" type="text/css" href="/partenaires/partners_bottom.css">
 
-    <link rel="stylesheet" type="text/css" href="/partenaires/partners_right.css">
-    <link rel="stylesheet" type="text/css" href="/partenaires/partners_bottom.css">
-    <!-- Bootstrap core CSS -->
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/index.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+	</head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  </head>
+	<body>
+		<header id="header"></header>
+		<div class="visible-lg-block visible-md-block" id="partners_right"></div>
+		<div class="visible-xs-block visible-sm-block" id="partners_bottom"></div>
+		<div id="content">
+		<main>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="/images/promo_club.jpg" class="img-responsive center-block" />
+								<br />
+								<a href="http://www.ffbad.org/" target="_blank"><img src="/images/ffbad_3_etoiles.png" class="img-responsive center-block" /></a>
+								<br />
+								<a href="https://www.facebook.com/Les.Manchots.de.la.rade" target="_blank"><img src="/images/facebook.png" class="img-responsive center-block" /></a>
+								<br />
+								<a href="http://www.codep29bad.fr/" target="_blank"><img src="/images/logo_codep_banniere.png" class="img-responsive" /></a>
+								<a href="http://www.bretagnebadminton.com/v2/" target="_blank"><img src="/images/logo_ligue.png" class="img-responsive" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="/images/affiche_title.gif" class="img-responsive center-block" />
+								<br />
+								<div id="affiche_carousel" class="carousel" data-ride="carousel" data-interval="2000" data-pause="hover">                                            
+									<!-- Wrapper for slides -->                                             
+									<div class="carousel-inner"> 
+										<div class="item active"> 
+											<img class="item_image" src="http://lmr29.com/saison_15_16/Festivites/AG/Affiche.png" alt="" />                                                 
+										</div>                                              
+									</div> 
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-content">
+									<p>La Soirée de l'Empereur</p>
+								</div>
+								<div class="card-action">
+									<a href="#" target="new_blank">11/04/2016 - Lire</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="/images/actualites_title.gif" class="img-responsive center-block" />
+								<br />
+								<div id="actualites_carousel" class="carousel" data-ride="carousel" data-pause="hover">                        
+									<!-- Wrapper for slides -->                                             
+									<div class="carousel-inner"> 
+										<div class="item active"> 
+											<img class="item_image" src="http://lmr29.com/saison_15_16/Tournois/seniors/Tournoi_seniors/Senart/Alice.jpg" alt="" />
+										</div>                                                 
+										<div class="item"> 
+											<img class="item_image" src="http://lmr29.com/saison_15_16/Festivites/AG/Affiche.png" alt="" />
+										</div>                                               
+									</div>
+								</div>
+								<br />
+								<a href="#"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
+								<a href="#"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
+								<a href="#"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
+								<a href="#"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
+								<a href="#"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="http://lmr29.com/images/presentation/V2012/Organisations.gif" class="img-responsive center-block" />
+								<hr />
+								<ul class="event-list">
+									<li>
+										<time datetime="2014-04-9 2000">
+											<span class="day">9</span>
+											<span class="month">Avr</span>
+											<span class="year">2016</span>
+											<span class="time">20:00</span>
+										</time>
+										<img alt="Independence Day" src="http://lmr29.com/saison_15_16/Festivites/Soiree_Empereur/Affiche_soireefestive_2016_OK.jpg" />
+										<div class="info">
+											<h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
+											<ul>
+												<li style="width:50%;">
+													<a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+								<br />
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="http://lmr29.com/images/presentation/V2012/CompetitionsB.gif" class="img-responsive center-block" />
+								<hr />
+								<ul class="event-list">
+									<div class="card">
+										<div class="card-content">
+											<p>Seniors : 32</p>
+										</div>
+										<div class="card-content">
+											<p>Jeunes : 27</p>
+										</div>
+										<div class="card-action">
+											Total : 59
+										</div>
+									</div>
+								</ul>
+								<br />
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<div class="box-content">
+								<img src="http://lmr29.com/images/presentation/V2012/BenevolatB.gif" class="img-responsive center-block" />
+								<hr />
+								<ul class="event-list">
+									<li>
+										<time datetime="2014-04-9 2000">
+											<span class="day">9</span>
+											<span class="month">Avr</span>
+											<span class="year">2016</span>
+											<span class="time">20:00</span>
+										</time>
+										<div class="info">
+											<h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
+											<ul>
+												<li style="width:50%;">
+													<a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+								<ul class="event-list">
+									<li>
+										<time datetime="2014-04-9 2000">
+											<span class="day">9</span>
+											<span class="month">Avr</span>
+											<span class="year">2016</span>
+											<span class="time">20:00</span>
+										</time>
+										<div class="info">
+											<h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Retour sur la Banquise 15</a></h2>
+											<ul>
+												<li style="width:50%;">
+													<a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+								<ul class="event-list">
+									<li>
+										<time datetime="2014-04-9 2000">
+											<span class="day">9</span>
+											<span class="month">Avr</span>
+											<span class="year">2016</span>
+											<span class="time">20:00</span>
+										</time>
+										<div class="info">
+											<h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
+											<ul>
+												<li style="width:50%;">
+													<a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+								<br />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 
-  <body>
-   <header id="header"></header>
-   <div class="visible-lg-block visible-md-block" id="partners_right"></div>
-   <div class="visible-xs-block visible-sm-block" id="partners_bottom"></div>
-   <div id="content">
-    <main>
-        <div class="container-fluid">
-            <div class="row" name="test">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/V2012/ActualitesV3.gif" class="img-responsive center-block" />
-                                    <hr />
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <div class="carousel-caption">
-                                                <h3>Nationale 2</h3>
-                                                <p>Défaite 7/1</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_2/R2J3/R2J3_clip_image008_0000.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Régionale 2</h3>
-                                                <p>Champion !!!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_3/J3/Equipe.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Département 1</h3>
-                                                <p>Deux Victoires !</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_4/D2J2/Equipe.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Département 2</h3>
-                                                <p>2 Nuls pour Finir</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <div id="carousel1" class="carousel slide" data-ride="carousel"> 
-                                        <!-- Indicators -->                                             
-                                        <ol class="carousel-indicators"> 
-                                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>                                                 
-                                            <li data-target="#carousel1" data-slide-to="1"></li>                                                 
-                                            <li data-target="#carousel1" data-slide-to="2"></li>                                                 
-                                        </ol>                                             
-                                        <!-- Wrapper for slides -->                                             
-                                        <div class="carousel-inner"> 
-                                            <div class="item active"> 
-                                                <img src="http://lmr29.com/saison_15_16/Festivites/AG/Affiche.png" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 1 title</h3> 
-                                                    <p>Slide 1 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                            <div class="item"> 
-                                                <img src="http://lmr29.com/saison_15_16/Festivites/AG/Affiche.png" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 2 title</h3> 
-                                                    <p>Slide 2 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                            <div class="item"> 
-                                                <img src="http://lmr29.com/saison_15_16/Festivites/AG/Affiche.png" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 3 title</h3> 
-                                                    <p>Slide 3 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                        </div>                                             
-                                        <!-- Controls -->                                             
-                                        <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
-                                        <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> 
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-content">
-                                        <p>La Soirée de l'Empereur</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="#" target="new_blank">11/04/2016 - Lire</a>
-                                    </div>
-                                </div>
-                                <img src="http://lmr29.com/images/presentation/FFBaD_EFB_3Etoiles_Saison15_16.png" class="img-responsive center-block" />
-                            </div>
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/V2012/Organisations.gif" class="img-responsive center-block" />
-                                    <hr />
-                                    <ul class="event-list">
-                                        <li>
-                                            <time datetime="2014-04-9 2000">
-                                                <span class="day">9</span>
-                                                <span class="month">Avr</span>
-                                                <span class="year">2016</span>
-                                                <span class="time">20:00</span>
-                                            </time>
-                                            <img alt="Independence Day" src="http://lmr29.com/saison_15_16/Festivites/Soiree_Empereur/Affiche_soireefestive_2016_OK.jpg" />
-                                            <div class="info">
-                                                <h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
-                                                <ul>
-                                                    <li style="width:50%;">
-                                                        <a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-md-push-4">
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/V2012/ActualitesV3.gif" class="img-responsive center-block" />
-                                    <hr />
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <div class="carousel-caption">
-                                                <h3>Nationale 2</h3>
-                                                <p>Défaite 7/1</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_2/R2J3/R2J3_clip_image008_0000.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Régionale 2</h3>
-                                                <p>Champion !!!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_3/J3/Equipe.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Département 1</h3>
-                                                <p>Deux Victoires !</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_4/D2J2/Equipe.jpg" alt="" />
-                                            <div class="carousel-caption">
-                                                <h3>Département 2</h3>
-                                                <p>2 Nuls pour Finir</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="carousel2" class="carousel slide" data-ride="carousel"> 
-                                        <!-- Indicators -->                                             
-                                        <ol class="carousel-indicators"> 
-                                            <li data-target="#carousel2" data-slide-to="0" class="active"></li>                                                 
-                                            <li data-target="#carousel2" data-slide-to="1"></li>                                                 
-                                            <li data-target="#carousel2" data-slide-to="2"></li>                                                 
-                                        </ol>                                             
-                                        <!-- Wrapper for slides -->                                             
-                                        <div class="carousel-inner"> 
-                                            <div class="item active"> 
-                                                <img src="http://lmr29.com/saison_15_16/Tournois/seniors/Tournoi_seniors/Senart/Alice.jpg" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 1 title</h3> 
-                                                    <p>Slide 1 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                            <div class="item"> 
-                                                <img src="http://lmr29.com/saison_15_16/Tournois/seniors/Tournoi_seniors/Senart/Alice.jpg" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 2 title</h3> 
-                                                    <p>Slide 2 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                            <div class="item"> 
-                                                <img src="http://lmr29.com/saison_15_16/Tournois/seniors/Tournoi_seniors/Senart/Alice.jpg" alt="" /> 
-                                                <div class="carousel-caption"> 
-                                                    <h3>Slide 3 title</h3> 
-                                                    <p>Slide 3 description.</p> 
-                                                </div>                                                     
-                                            </div>                                                 
-                                        </div>                                             
-                                        <!-- Controls -->                                             
-                                        <a class="left carousel-control" href="#carousel2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
-                                        <a class="right carousel-control" href="#carousel2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> 
-                                    </div>
-                                    <br />
-                                </div>
-                                <div class="box-content">
-                                    <a href="http://lmr29.com"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
-                                    <a href="http://lmr29.com"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
-                                    <a href="http://lmr29.com"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
-                                    <a href="http://lmr29.com"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
-                                    <a href="http://lmr29.com"><h5 class="blanc">Tournoi XXXXXXXXXXXX</h5></a>
-                                    <ul class="event-list">
-                                    </ul>
-                                    <ul class="event-list">
-                                    </ul>
-                                    <ul class="event-list">
-                                    </ul>
-                                    <br />
-                                </div>
-                                <div class="card">
-                                </div>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="carousel-caption">
-                                        <h3>Nationale 2</h3>
-                                        <p>Défaite 7/1</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_2/R2J3/R2J3_clip_image008_0000.jpg" alt="" />
-                                    <div class="carousel-caption">
-                                        <h3>Régionale 2</h3>
-                                        <p>Champion !!!!</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_3/J3/Equipe.jpg" alt="" />
-                                    <div class="carousel-caption">
-                                        <h3>Département 1</h3>
-                                        <p>Deux Victoires !</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://lmr29.com/saison_15_16/Interclubs/Equipe_4/D2J2/Equipe.jpg" alt="" />
-                                    <div class="carousel-caption">
-                                        <h3>Département 2</h3>
-                                        <p>2 Nuls pour Finir</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                            </div>
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/V2012/BenevolatB.gif" class="img-responsive center-block" />
-                                    <hr />
-                                    <ul class="event-list">
-                                        <li>
-                                            <time datetime="2014-04-9 2000">
-                                                <span class="day">9</span>
-                                                <span class="month">Avr</span>
-                                                <span class="year">2016</span>
-                                                <span class="time">20:00</span>
-                                            </time>
-                                            <div class="info">
-                                                <h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
-                                                <ul>
-                                                    <li style="width:50%;">
-                                                        <a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="event-list">
-                                        <li>
-                                            <time datetime="2014-04-9 2000">
-                                                <span class="day">9</span>
-                                                <span class="month">Avr</span>
-                                                <span class="year">2016</span>
-                                                <span class="time">20:00</span>
-                                            </time>
-                                            <div class="info">
-                                                <h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Retour sur la Banquise 15</a></h2>
-                                                <ul>
-                                                    <li style="width:50%;">
-                                                        <a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="event-list">
-                                        <li>
-                                            <time datetime="2014-04-9 2000">
-                                                <span class="day">9</span>
-                                                <span class="month">Avr</span>
-                                                <span class="year">2016</span>
-                                                <span class="time">20:00</span>
-                                            </time>
-                                            <div class="info">
-                                                <h2 class="title"><a href="https://docs.google.com/spreadsheets/d/1Red35prNJWFWcYQNzF3iBrbHDF-Qz8_LtJ6CUtC86_U/edit?usp=sharing" target="_blank">Réception Nationale 2&nbsp;</a></h2>
-                                                <ul>
-                                                    <li style="width:50%;">
-                                                        <a href="#website"><span class="fa fa-globe"></span> S'inscrire</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-md-4 col-md-pull-4">
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/promo_club.jpg" class="img-responsive center-block" />
-                                    <img src="http://lmr29.com/images/presentation/FFBaD_EFB_3Etoiles_Saison15_16.png" class="img-responsive center-block" />
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="box-content">
-                                    <img src="http://lmr29.com/images/presentation/V2012/CompetitionsB.gif" class="img-responsive center-block" />
-                                    <hr />
-                                    <ul class="event-list">
-                                        <div class="card">
-                                            <div class="card-content">
-                                                <p>Seniors : 32</p>
-                                            </div>
-                                            <div class="card-content">
-                                                <p>Jeunes : 27</p>
-                                            </div>
-                                            <div class="card-action">
-                                                Total : 59
-                                            </div>
-                                        </div>
-                                    </ul>
-                                    <br />
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>                         
-                </div>
-            </div>
-        </body>
-
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="/node_modules/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <script src="/index.js"></script>
-        </html>
+	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/node_modules/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="/index.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
