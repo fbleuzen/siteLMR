@@ -50,7 +50,7 @@ body {
 	font-size: 14px;
 }
 
-#tournaments_dropdown .dropdown-menu>li>a {
+#tournaments_dropdown .dropdown-menu > li > xa {
 	padding-left: 30px;
 }
 
@@ -622,33 +622,22 @@ body {
 	margin-top: 4%;
 }
 
-.box-content-test
+.page-box-header
 {
 	background-image: url('images/fond_titre_tournoisV4.gif');
 	color:white;
 	width: 100%;
+	min-height: 50px;
 	background-size: 100% 100%;
+	text-align: center;
 }
 
-.box-content-test h1
-{
-	font-size: 18px;
-	color: #d9d9d9;	
-	text-shadow: #2e2e2e 0 4px 5px;
+.page-box-header span {
+	width: 80%;
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
 }
-
-.box-content-test h2
-{
-	font-size: 14px;
-	color: #d9d9d9;
-	text-shadow: #2e2e2e 0 4px 5px;
-
-}
-.box-content > .texte p
-{
-	color: white;
-}
-
 
 .texte {
 	font-size: 1em;
@@ -687,3 +676,4 @@ body {
 		color: black;
 	}
 }
+
