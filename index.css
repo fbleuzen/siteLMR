@@ -272,6 +272,7 @@ body {
 	}
 }
 
+
 /* Affichage en Module boite */
 
 .box
@@ -396,16 +397,6 @@ body {
 	margin-top: 4%;
 }
 
-.page-box-header
-{
-	background-image: url('images/fond_titre_tournoisV4.gif');
-	color:white;
-	width: 100%;
-	min-height: 50px;
-	background-size: 100% 100%;
-	text-align: center;
-}
-
 .page-box-header span {
 	width: 80%;
 	display: inline-block;
@@ -478,26 +469,41 @@ body {
 .panel-heading a {
     display: block;
     padding: 20px 10px;
-}
-.panel-heading a.collapsed {
-    background: #000
-}
-.panel-heading a {
-    background: #f7f7f7;
+    background: #ffffff;
     border-radius: 5px;
 }
+
 .panel-heading a:after {
     content: '-'
 }
 .panel-heading a.collapsed:after {
     content: '+'
 }
+.nav.nav-tabs
+{
+	border-radius: 10px;
+
+}
+.nav.nav-tabs li.active 
+{
+	border-radius: 10px;
+	background: black;
+}
+.nav.nav-tabs li.active > a:active,
+{
+	background:#ffff80;
+	color:black;
+}
 .nav.nav-tabs li a,
 .nav.nav-tabs li.active > a:hover,
 .nav.nav-tabs li.active > a:active,
 .nav.nav-tabs li.active > a:focus {
+	border-radius: 10px;
     border-bottom-width: 0px;
     outline: none;
+    color:white;
+    background: black;
+
 }
 .nav.nav-tabs li a {
     padding-top: 20px;
