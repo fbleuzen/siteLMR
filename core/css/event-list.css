@@ -1,0 +1,232 @@
+/* Permets d'afficher les évènements comme bénévolat ou tournois */
+.event-list
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.event-list > li {
+	background-color: #ffff80;
+	box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+	padding: 0px;
+	margin: 0px 0px 20px;
+}
+
+.event-list > li > time
+{
+	display: inline-block;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	background-color: #000000;
+	padding: 5px;
+	text-align: center;
+}
+
+.event-list > li > time > span
+{
+	display: none;
+}
+
+.event-list > li > time > .day
+{
+	color: #ffff80;
+	display: block;
+	font-size: 18pt;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.event-list > li time > .month
+{
+	color: #ffff80;
+	display: block;
+	font-size: 18pt;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.event-list > li time > .time
+{
+	color: #ffff80;
+	display: block;
+	font-size: 16pt;
+	line-height: 1;
+}
+
+/*.event-list > li > img
+{
+	width: 100%;
+}*/
+
+.event-list > li > .info
+{
+	padding-top: 5px;
+	text-align: center;
+}
+
+.event-list > li > .info > .title
+{
+	color: #000000;
+	font-size: 12pt;
+	font-weight: 700;
+	margin: 0px;
+}
+.event-list > li > .info > .title > a
+{
+	color:black;
+}
+
+.event-list > li > .info > .desc
+{
+	font-size: 13pt;
+	font-weight: 300;
+	margin: 0px;
+}
+
+.event-list > li > .info > ul,
+.event-list > li > .social > ul
+{
+	display: table;
+	list-style: none;
+	margin: 10px 0px 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.event-list > li > .social > ul
+{
+	margin: 0px;
+}
+
+.event-list > li > .info > ul > li,
+.event-list > li > .social > ul > li
+{
+	display: table-cell;
+	color: rgb(30, 30, 30);
+	font-size: 11pt;
+	font-weight: 300;
+	padding-top: 3px;
+}
+
+.event-list > li > .info > ul > li > a
+{
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	color: rgb(30, 30, 30);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.event-list > li > .info > ul > li > a:hover
+{
+	display: block;
+	width: 100%;
+	color: #ffff80;
+	background-color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.event-list > li > .social > ul > li
+{
+	padding: 0px;
+}
+
+.event-list > li > .social > ul > li > a
+{
+	padding: 3px 0px;
+}
+
+@media (min-width: 768px)
+{
+	.event-list > li
+	{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 80px;
+		padding: 0px;
+	}
+
+	.event-list > li > .info
+	{
+		color:#000000;
+		background-color: #ffff80;
+		overflow: hidden;
+	}
+	.event-list > li > time
+	{
+		display: inline-block;
+		width: 100px;
+		height: 80px;
+		padding: 0px;
+		margin: 0px;
+		float: left;
+	}
+
+	.event-list > li > .event-image
+	{
+		display: inline-block;
+		width: 56px;
+		height: 80px;
+		padding: 0px;
+		margin: 0px;
+		float: left;
+	}
+
+	.event-list > li > .event-image > img
+	{
+		display: block;
+		max-height: 100%;
+		margin: 0 auto;
+	}
+
+	.event-list > li > .info
+	{
+		color:#000000;
+		position: relative;
+		height: 80px;
+		text-align: left;
+		padding-right: 40px;
+		background-color: #ffff80;
+	}
+	.event-list > li > .info > .title, 
+	.event-list > li > .info > .desc
+	{
+		color : #000000;
+		padding: 0px 10px;
+	}
+	.event-list > li > .info > ul
+	{
+		color : #000000;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+	}
+	.event-list > li > .social
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		display: block;
+		width: 40px;
+	}
+	.event-list > li > .social > ul
+	{
+		border-left: 1px solid rgb(230, 230, 230);
+	}
+	.event-list > li > .social > ul > li
+	{
+		display: block;
+		padding: 0px;
+	}
+	.event-list > li > .social > ul > li > a
+	{
+		display: block;
+		width: 40px;
+		padding: 10px 0px 9px;
+	}
+}

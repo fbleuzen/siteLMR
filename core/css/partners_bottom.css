@@ -1,0 +1,19 @@
+#partners_bottom_carousel {
+	width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#partners_bottom_carousel .right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+#partners_bottom_carousel .item {
+    width: 200px;
+    height: 50px;
+}
+
+#partners_bottom_carousel .item_image {
+	height: 100%;
+	margin: 0 auto;
+}
